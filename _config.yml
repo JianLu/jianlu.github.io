@@ -18,14 +18,14 @@ social:
   QQ:
   weibo:
   stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  linkedin:
+  linkedin: jianlu0219
   facebook:
   flickr:
   twitter:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram: ''
-  lastfm: ''
+  instagram:
+  lastfm:
   rss: feed.xml
 
 #
