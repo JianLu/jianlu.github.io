@@ -43,6 +43,28 @@ JSON:
 ]}
 {% endhighlight json %}
 
+RUBY:
+{% highlight ruby %}
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+{% endhighlight ruby %}
+
+RUBY:
+~~~ ruby
+def what?
+  42
+end
+~~~
+
+
+RUBY:
+``` ruby
+def what?
+  42
+end
+```
+
 SQL:
 {% highlight SQL %}
 select count(*) as cm_content_nodes
