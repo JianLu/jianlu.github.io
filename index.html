@@ -1,0 +1,50 @@
+---
+layout: page
+---
+
+{% for post in site.posts limit:10 %}
+
+<!-- Post title -->
+<h2 class="post-title">
+  <a href="{{post.url | prepend:site.baseurl | prepend:site.url}}">
+    {{ post.title }}
+  </a>
+</h2>
+
+<!-- Post meta -->
+<div class="post-meta">
+  <!-- Time -->
+  <i class="fa fa-calendar"></i>
+  <time>{{ post.date | date_to_string }}</time>
+  &nbsp;&nbsp;
+
+  <!-- Categories -->
+  <i class="fa fa-file"></i>
+  {% for cat in post.categories %}
+  <a href="{{site.baseurl | prepend:site.url}}/categories/#{{ cat }}">{{ cat }}</a> &nbsp;
+  {% endfor %}
+
+  <!-- Tags -->
+  <div class="post-tag"?>
+    <i class="fa fa-tags"></i>
+    {% for tag in post.tags %}
+    <a href="{{site.baseurl | prepend:site.url}}/tags/#{{ tag }}">{{ tag }}</a> &nbsp;
+    {% endfor %}
+  </div>
+
+</div>
+
+<div class="post-descr">
+  <p>
+    {{ post.description }}
+  </p>
+</div>
+{% endfor %}
+
+
+<div class="post-footer">
+  <div class="column-full">
+    <h3><a href="{{site.baseurl | prepend:site.url}}/archive/">Blog archive</a></h3>
+  </div>
+</div>
+
