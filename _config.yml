@@ -49,12 +49,9 @@ exclude: ['README.md', 'LICENSE']
 #
 # Google Analytics key, leave blank to ignore
 google_analytics_key: UA-73497007-1
-# Yandex metrika (https://metrica.yandex.com/) leave blanc to ignore or put true to use
-yandex_metrica:
-# Set this to your disqus shortname to enable comments. Note that the 'comments'
-# setting below must also be true. Individual posts can override 'comments' to
-# disable on a post-by-post basis
-disqus: jianlu
-comments: true
 
+# Comment system
+comment:
+  disqus: true
+  disqus_identifier: 'JianIsAwesome'
 
