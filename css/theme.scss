@@ -306,7 +306,14 @@ nav.shrink .navbar-toggle {
 /*
  * Tags
  */
-.tags {
+.keyword{
   color: forestgreen;
   font-weight: bold;
+}
+
+.anchor{
+  display: block;
+  height: 80px; /*same height as header*/
+  margin-top: -80px; /*same height as header*/
+  visibility: hidden;
 }

@@ -1,10 +1,8 @@
 {% capture tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
 {% assign tag = tags | split:',' | sort %}
-<h1> Tags of Jian's Blog</h1>
-<br>
 <div id='tag_cloud'>
     {% for tag in site.tags %}
-    <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+        <a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
     {% endfor %}
 </div>
 <script src="/scripts/jquery.tagcloud.js" ></script>

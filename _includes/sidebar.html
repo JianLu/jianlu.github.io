@@ -1,10 +1,17 @@
-<div class="sidebar ">
+<div class="sidebar">
   <h2>About Me</h2>
   <p>I am a data scientist and software developer, and ...</p>
   {% include social.html %}
 </div>
 
-<div class="sidebar ">
+{% if site.share.baidu %}
+<div class="sidebar">
+  <h2>Share Link:</h2>
+  {% include baidushare.html %}
+</div>
+{% endif %}
+
+<div class="sidebar">
   <h2>Recent Posts</h2>
   <ul>
     {% for post in site.posts limit:5 %}

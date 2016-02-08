@@ -46,3 +46,5 @@ _______
     - Add code highlighting using **kramdown** with **rouge**
     - Add **jekyll-paginate** for display home page in pages
     - Add html icon in header.html
+    - Add Disqus comment system
+    - Add BaiduShare

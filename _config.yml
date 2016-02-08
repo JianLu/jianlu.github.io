@@ -7,8 +7,10 @@ name: Jian Lu
 title: Jian Lu's Personal Site
 description: I am a data scientist and software developer, and ...
 logo_image: "/images/logo.png"
+headshot_image: "/images/headshot.jpg"
 
-url: # Url is currently only used only for the RSS feed in feed.xml
+# Url is currently only used only for the RSS feed in feed.xml
+url: "http://127.0.0.1:4000"
 baseurl: ""
 social:
   email: zzzdevil@gmail.com
@@ -53,5 +55,9 @@ google_analytics_key: UA-73497007-1
 # Comment system
 comment:
   disqus: true
+  disqus_url: "http://jianlu.github.io"
   disqus_identifier: 'JianIsAwesome'
 
+# Share
+share:
+  baidu: true
