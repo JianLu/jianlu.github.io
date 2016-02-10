@@ -4,7 +4,7 @@ title: "Blog Setup"
 date: 2016-02-07 12:13
 categories: [Tech]
 tags: [jekyll]
-description: Here you'll find out how to install this theme
+description: How to use this Jekyll blog template
 ---
 
 ## Blog repository
