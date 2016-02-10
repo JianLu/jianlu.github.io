@@ -4,7 +4,7 @@ title: "Advanced Tips"
 date: 2016-02-08 14:26
 description: Here you'll find some tricks for advanced blog features
 categories: [Tech]
-tags: [jekyll, analytics, comments]
+tags: [jekyll]
 ---
 
 ## Analytics
