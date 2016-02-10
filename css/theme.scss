@@ -325,4 +325,8 @@ nav.shrink .navbar-toggle {
   padding: 5px;
   border-radius: 5px;
   border: solid #CBCBCB 1px;
+
+  span{
+    cursor: pointer;
+  }
 }
