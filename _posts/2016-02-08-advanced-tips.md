@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Advanced Tips"
+title: "Blog Setup - Advanced Tips"
 date: 2016-02-08 14:26
 description: Here you'll find some tricks for advanced blog features
 categories: [Tech]
