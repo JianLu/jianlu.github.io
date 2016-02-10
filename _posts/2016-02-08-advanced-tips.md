@@ -41,6 +41,7 @@ Leaving `share.baidu` empty in `_config.yaml` file will disable the share featur
 In this repository, I prefer to [kramdown](http://kramdown.gettalong.org/) to parse Markdown (.md) post files.
 Note that you need to use following setting to enable Kramdown to use rouge highlighting which is supported by GitHub by default.
 
+
 ~~~ yaml
 markdown: kramdown
 kramdown:
@@ -52,6 +53,11 @@ Here are some examples to add code block into your post (need one line space bef
 
 JSON:
 
+<div class="code-title">
+<span id="button1" onclick="$use('jsoncode', 'button1')">[-]</span>
+Example of JSON code
+</div>
+
 ~~~ json
 {"employees":[
     {"firstName":"John", "lastName":"Doe"},
@@ -59,6 +65,9 @@ JSON:
     {"firstName":"Peter", "lastName":"Jones"}
 ]}
 ~~~
+{: #jsoncode}
+
+<br>
 
 RUBY:
 

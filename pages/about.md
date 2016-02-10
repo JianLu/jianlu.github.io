@@ -52,3 +52,4 @@ _______
 * 2016-02-10:
     - Modify theme.css
     - Add "Recent Comment" widget
+    - Add js to fold code block
