@@ -12,7 +12,8 @@ The theme used in this site is refered to following themes on [Github](https://g
 * [Jekyll Clean Dark](https://github.com/streetturtle/jekyll-clean-dark)
 * [Way Lau's personal blog](https://github.com/waylau/waylau.github.com)
 
-Before using this site, please read the post "Blog Setup" to understand how to use this blog repository.
+Before using this site, please read [Blog Setup](/2016/02/Blog-Setup/) and
+[Advanced Tips](/2016/02/advanced-tips/) to understand how to use this blog repository.
 
 # License
 
@@ -50,3 +51,4 @@ _______
     - Add BaiduShare
 * 2016-02-10:
     - Modify theme.css
+    - Add "Recent Comment" widget
