@@ -1,5 +1,11 @@
 <ul class="social-media">
-    <!--Email icon-->
+
+    {% if site.social.homepage %}
+    <li>
+        <a title="{{ site.name }}'s homepage" href="{{ site.social.homepage }}" target="_blank"><i class="fa fa-link fa-2x"></i></a>
+    </li>
+    {% endif %}
+
     {% if site.social.email %}
     <li>
         <a title="Email: {{ site.social.email }}" href="mailto:{{ site.social.email }}" <i class="fa fa-envelope fa-2x"></i></a>

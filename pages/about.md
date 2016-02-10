@@ -48,3 +48,5 @@ _______
     - Add html icon in header.html
     - Add Disqus comment system
     - Add BaiduShare
+* 2016-02-10:
+    - Modify theme.css
