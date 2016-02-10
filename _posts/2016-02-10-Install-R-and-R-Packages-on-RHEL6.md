@@ -7,6 +7,14 @@ tags: [jekyll, linux, R]
 description: Introduction of installing R and R packages in RedHat 6
 ---
 
+## Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+---
+
 ## Install R
 
 In order to get R running on RHEL 6, we need to add an additional repository that allows us to install the new packages.
@@ -203,10 +211,15 @@ library(ROracle)
 
 For more details about installing ROracle, please refer to <https://cran.r-project.org/web/packages/ROracle/INSTALL>.
 
-## Reference
+<span class="anchor" id="reference"></span>
 
-- [R RPMS - CRAN](https://cran.r-project.org/bin/linux/redhat/README)
+## Reference & Resource
+
 - [How to Enable EPEL for RHEL/CentOS](http://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/)
 - [Install R in Linux](http://www.jason-french.com/blog/2013/03/11/installing-r-in-linux/)
-- [Rserve Webpage](https://rforge.net/Rserve/)
 - [ROracle CRAN](https://cran.r-project.org/web/packages/ROracle/index.html)
+- [R RPMs](https://cran.r-project.org/bin/linux/redhat/README "R RPMS for Fedora, Red Hat Enterprise Linux and Derivatives")
+
+
+* [EPEL R RPM files](https://dl.fedoraproject.org/pub/epel/6/x86_64/repoview/letter_r.group.html "EPEL Repository with letter R")
+* [Rserve Webpage](https://rforge.net/Rserve/)

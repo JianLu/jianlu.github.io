@@ -11,16 +11,11 @@ The **Singleton** is one of the simplest and best-known design patterns, which r
 
 In this article, we would provide different ways of implementing the singleton pattern using C# and discuss the difference in terms of lazily-load, thread-safety, and perfromance.
 
-### Portals:
+## Contents
+{:.no_toc}
 
-[Difference between singleton and static class](#difference)
-
-[Thread safety](#threadsafety)
-
-[Laziness](#laziness)
-
-[Performance](#performance)
-
+* TOC
+{:toc}
 
 ---
 
