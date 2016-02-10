@@ -13,8 +13,8 @@
               <time>{{ page.date | date: '%Y-%m-%d %H:%M:%S' }}</time>
               <br>
 
-              <i class="fa fa-file"></i> Categories:
-              {% for cat in post.categories %}
+              <i class="fa fa-file"></i> Categories:		  
+              {% for cat in page.categories %}
                 <a href="{{ site.baseurl | prepend:site.url}}/categories/#{{ cat }}">{{ cat }}</a> &nbsp;
               {% endfor %}
               <br>
