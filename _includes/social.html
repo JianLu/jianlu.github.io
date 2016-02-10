@@ -48,4 +48,13 @@
     </li>
     {% endif %}
 
+    {% if site.social.weixin %}
+    <li>
+        <a href="{{ site.social.weixin }}" target="_blank"
+           onclick="window.open('{{ site.social.weixin }}', 'QR Code', 'location=1,width=512,height=512,top=60,left=60');return false;">
+            <i class="fa fa-weixin fa-2x"></i>
+        </a>
+    </li>
+    {% endif %}
+
 </ul>
