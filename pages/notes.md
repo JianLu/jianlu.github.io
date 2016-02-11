@@ -12,9 +12,16 @@ permalink: /notes/
 
 ---
 
-# Jekyll
+# Web Development
+
+## Jekyll
 
 - [A good Jekyll tutorial](https://www.andrewmunsell.com/course/learning-jekyll-by-example/)
+
+## HTML
+
+Sharelink:
+http://www.techicorner.com/2015/09/how-to-create-social-share-buttons-with-custom-icons-2/
 
 
 # Linux

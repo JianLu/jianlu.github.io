@@ -1,8 +1,22 @@
+
+<div class="social__item">
+    <a href="http://www.facebook.com/share.php?u={{ site.url }}{{ page.url }}&title={{ page.title }}"
+       target="_blank" class ="social__icon--facebook" title="Share to Facebook">
+        <i class="fa fa-facebook fa-0.5"></i>
+    </a>
+</div>
+
+<div class="social__item">
+    <a href="http://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}"
+       target="_blank" title="Share to LinkedIn" class ="social__icon--linkedin">
+        <i class="fa fa-linkedin fa-adjust"></i>
+    </a>
+</div>
+
 {% if site.share.baidu %}
     <div class="bdsharebuttonbox"><a href="#" class="bds_more" data-cmd="more"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_tqq" data-cmd="tqq" title="分享到腾讯微博"></a><a href="#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a></div>
     <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdPic":"","bdStyle":"0","bdSize":"16"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
 {% endif %}
 
-<a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}">
-    <i class="fa fa-facebook fa"></i>
-</a>
+
+
