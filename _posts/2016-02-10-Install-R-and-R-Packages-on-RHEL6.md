@@ -213,6 +213,17 @@ For more details about installing ROracle, please refer to <https://cran.r-proje
 
 <span class="anchor" id="reference"></span>
 
+## Uninstall R
+
+Suppose you install R using `yum`, then you can use the following commands to totally uninstall R:
+
+~~~ bash
+yum remove R
+yum remove R-core
+yum remove R-devel
+yum remove R-core-devel
+~~~
+
 ## Reference & Resource
 
 - [How to Enable EPEL for RHEL/CentOS](http://www.tecmint.com/how-to-enable-epel-repository-for-rhel-centos-6-5/)
