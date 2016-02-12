@@ -326,7 +326,7 @@ nav.shrink .navbar-toggle {
   border-radius: 5px;
   border: solid #CBCBCB 1px;
 
-  span{
+span.code-fold{
     cursor: pointer;
   }
 }
@@ -334,6 +334,8 @@ nav.shrink .navbar-toggle {
 table, th, td {
   border: 1px solid #CBCBCB;
 }
+
+
 
 /*****************
  * Icons color

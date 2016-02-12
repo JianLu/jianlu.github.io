@@ -54,7 +54,7 @@ Here are some examples to add code block into your post (need one line space bef
 JSON:
 
 <div class="code-title">
-<span id="button1" onclick="$use('jsoncode', 'button1')">[-]</span>
+<span class="code-fold" id="fold1" onclick="$use('jsoncode', 'fold1')">[-]</span>
 Example of JSON code
 </div>
 
