@@ -3,7 +3,7 @@ layout: post
 title: "Install R and R packages on RHEL 6 (x86_64)"
 date: 2016-02-10 10:30
 categories: [Tech]
-tags: [jekyll, linux, R]
+tags: [linux, R]
 description: Introduction of installing R and R packages in RedHat 6
 ---
 
