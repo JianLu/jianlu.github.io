@@ -3,7 +3,7 @@ layout: post
 title: "Install R and R packages on Windows"
 date: 2016-02-10 10:30
 categories: [Tech]
-tags: [jekyll, linux, R]
+tags: [R, Windows]
 description: Introduction of installing R and R packages on Windows 7 64bit
 ---
 
