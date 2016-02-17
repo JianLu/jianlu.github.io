@@ -18,7 +18,7 @@ Question Link:
 
 The 3Sum problem can be solved by using the algorithm of 2Sum,
 I have talked different cases of the 2Sum problem in my 
-[university web page](http://www.cs.uml.edu/~jlu1/doc/codes/findSum.html){: target="_blank"}.
+[old post](http://www.cs.uml.edu/~jlu1/doc/codes/findSum.html){: target="_blank"}.
 In this problem, I would like to use the solution for the case where the given array is sorted.
 
 The basic method is, we sort the given array first (because the requested triplet must be in non-descending order).
