@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     {% if page.title %}
-        <title>{{ site.title }} | {{ page.title}}</title>
+        <title>{{ page.title }} | {{ site.title }}</title>
     {% else %}
         <title>{{ site.title }}</title>
     {% endif %}
@@ -17,6 +17,9 @@
     <link href="{{ site.baseurl }}/css/theme.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/syntax.css" rel="stylesheet">
     <link href="{{ site.baseurl }}/css/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    {% if page.math %}
+        <script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+    {% endif %}
 </head>
 
 <body>

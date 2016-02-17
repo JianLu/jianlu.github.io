@@ -20,7 +20,20 @@ Question Link:
 ## Solution
 
 The algorithm will scan the given array once and record the scanned numbers by using a hash map,
-so the time cost of the algorithm is $$ 5 + 5 $$.
+so the time cost of the algorithm is *O(1)*.
+
+### Add number
+
+For each scanned number *n*, the hash map stores the key-value-pair,
+where the key is the matched number *n'* (*n + n' = target*), and the value is the number index.
+
+### Match number
+
+While scanning a new number *n1*, if *n* is in the hash map key,
+that means there is scanned number matching with *n*, 
+then we get the value of key *n1* which is the index of that scanned number.
+If *n* is not in the hash map keys, just add *n* to the hash map for the further matchign check.
+
 
 ## Implementation
 
