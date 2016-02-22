@@ -22,8 +22,12 @@ Lets define `<a, b>` is a duplicate pair where `s[a] == s[b]`, then it is not ha
 for the character `s[i]`, the longest suffix strings should be `s[j..i]`
 where `j` is the largest `b` value for all duplicate pairs before `s[i]`.
 
+## Implementation
+
 Then we can have following python code.
-The code is very neat and efficient (first time my code beats more than 90%...).
+We use hash table to record the last occurrence of each character to keep track the duplicates.
+The code is very neat and efficient (first time my code beats more than 90%... :p).
+
 
 <div class="code-title">
 <span class="code-fold" id="fold-btn-python" onclick="$use('fold-body-python', 'fold-btn-python')">[-]</span>
