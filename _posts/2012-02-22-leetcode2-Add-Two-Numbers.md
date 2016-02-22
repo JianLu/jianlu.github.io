@@ -69,7 +69,7 @@ class Solution(object):
 
         return rtn
 ~~~
-
+{: #fold-body-python}
 
 <div class="code-title">
 <span class="code-fold" id="fold-btn-cpp" onclick="$use('fold-body-cpp', 'fold-btn-cpp')">[-]</span>
@@ -131,3 +131,4 @@ public:
     }
 };
 ~~~
+{: #fold-body-cpp}
