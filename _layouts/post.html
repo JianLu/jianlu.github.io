@@ -37,7 +37,19 @@
           </div>
 
           <div class="well">
+
+            <div class="PageNavigation">
+              {% if page.previous.url %}
+              <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+              {% endif %}
+              {% if page.next.url %}
+              <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+              {% endif %}
+            </div>
             {% include share.html %}
+          </div>
+
+          <div class="well">
             {% include disqus-comments.html %}
             {% include disqus-counts.html %}
           </div>

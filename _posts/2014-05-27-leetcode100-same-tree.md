@@ -4,7 +4,7 @@ title: "[LeetCode 100] Same Tree"
 date: 2014-05-27 05:09
 description: Solution of LeetCode Question 100
 categories: [Programming]
-tags: [leetcode]
+tags: [leetcode, binary tree]
 ---
 
 Question Link:

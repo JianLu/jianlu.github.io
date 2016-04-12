@@ -4,7 +4,7 @@ title: "[LeetCode 101] Symmetric Tree"
 date: 2014-05-27 04:56
 description: Solution of LeetCode Question 101
 categories: [Programming]
-tags: [leetcode]
+tags: [leetcode, binary tree]
 ---
 
 Question Link:

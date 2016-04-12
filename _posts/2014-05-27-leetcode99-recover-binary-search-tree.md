@@ -4,7 +4,7 @@ title: "[LeetCode 99] Recover Binary Search Tree"
 date: 2014-05-27 05:52
 description: Solution of LeetCode Question 99
 categories: [Programming]
-tags: [leetcode]
+tags: [leetcode, binary search tree]
 ---
 
 Question Link:

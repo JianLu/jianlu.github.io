@@ -53,3 +53,5 @@ _______
     - Modify theme.css
     - Add "Recent Comment" widget
     - Add js to fold code block
+* 2016-04-12:
+    - Add "Previous/Next" links to post layout
