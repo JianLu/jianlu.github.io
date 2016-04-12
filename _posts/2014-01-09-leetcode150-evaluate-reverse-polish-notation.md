@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] Evaluate Reverse Polish Notation"
+title: "[LeetCode 150] Evaluate Reverse Polish Notation"
 date: 2014-01-09 11:10
 description: Solution of Leetcode Question 150
 categories: [Programming]

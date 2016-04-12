@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] 3Sum"
+title: "[LeetCode 15] 3Sum"
 date: 2016-02-14 21:00:14
 description: Solution of Leetcode Question 15
 categories: [Programming]

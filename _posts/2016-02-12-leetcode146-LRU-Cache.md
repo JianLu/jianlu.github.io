@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] LRU Cache"
+title: "[LeetCode 146] LRU Cache"
 date: 2016-02-12 22:20
 description: Solution of Leetcode Question 146
 categories: [Programming]

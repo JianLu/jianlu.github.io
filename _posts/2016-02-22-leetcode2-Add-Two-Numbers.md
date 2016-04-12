@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] Add Two Numbers"
+title: "[LeetCode 2] Add Two Numbers"
 date: 2016-02-22 12:49:14
 description: Solution of LeetCode Question 2
 categories: [Programming]

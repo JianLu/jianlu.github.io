@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] Validate Binary Search Tree"
+title: "[LeetCode 98] Validate Binary Search Tree"
 date: 2014-05-27 05:59
 description: Solution of Leetcode Question 98
 categories: [Programming]

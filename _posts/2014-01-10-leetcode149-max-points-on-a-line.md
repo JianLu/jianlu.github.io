@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] Max Points on a Line"
+title: "[LeetCode 149] Max Points on a Line"
 date: 2014-01-10 10:53
 description: Solution of Leetcode Question 149
 categories: [Programming]

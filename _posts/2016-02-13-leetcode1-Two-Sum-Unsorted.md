@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] Two Sum with unsorted array"
+title: "[LeetCode 1] Two Sum with unsorted array"
 date: 2016-02-13 16:06:38
 description: Solution of Leetcode Question 1
 categories: [Programming]

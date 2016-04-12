@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode] Median of Two Sorted Arrays"
+title: "[LeetCode 4] Median of Two Sorted Arrays"
 date: 2016-04-10 20:57:11
 description: Solution of LeetCode Question 4
 categories: [Programming]
