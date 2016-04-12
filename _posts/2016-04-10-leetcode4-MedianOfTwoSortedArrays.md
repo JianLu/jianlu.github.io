@@ -13,23 +13,23 @@ Question Link:
 
 ---
 
-## Conquer-and-divide
+## Divide-and-Conquer
 
 Because the arrays are sorted, intuitively I thought the problem should be very similar to **Binary Search**,
-which uses the "Conquer-and-divide" idea.
+which uses the "Divide-and-Conquer" idea.
 I tried to compare the medians of two arrays, and trim left and right with the same number of elements until each array has at most 1 elements.
 However, I failed to provide a good solution because the logic of deciding trim size is too complicated.
 
 ## Find K-th Value of Two Sorted Arrays
 
-Still inspired by "Conquer-and-divide", this time, I transfer the problem into another problem.
+Still inspired by "Divide-and-Conquer", this time, I transfer the problem into another problem.
 Instead of find the median of the two sorted arrays, I try to find the *K*-th value of two sorted arrays
 where *K = (N1 + N2) / 2* and *N1* and *N2* are lengths of two arrays.
 
 
 ## Solution
 
-If (N1 + N2) is odd, the answer is the solutino of finding $K+1$-th value of the two sorted arrays.
+If (N1 + N2) is odd, the answer is the solution of finding $K+1$-th value of the two sorted arrays.
 Otherwise, the answer is the average of *K*-th and *K+1*-th values (*K = (N1 + N2) / 2*).
 
 We should also take care of some boundary conditions. 
