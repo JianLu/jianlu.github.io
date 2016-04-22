@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[LeetCode 112] Path Sum"
-date: 2014-05-13 22:39
+date: 2014-05-13 22:46
 description: Solution of LeetCode Question 112
 categories: [Programming]
 tags: [leetcode, binary tree]
