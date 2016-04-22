@@ -3,8 +3,8 @@ layout: post
 title: "[LeetCode 118] Pascal's Triangle"
 date: 2014-05-13 08:52
 description: Solution of LeetCode Question 118
-categories: [Programming, dynamic programming]
-tags: [leetcode]
+categories: [Programming]
+tags: [leetcode, dynamic programming]
 math: true
 ---
 
