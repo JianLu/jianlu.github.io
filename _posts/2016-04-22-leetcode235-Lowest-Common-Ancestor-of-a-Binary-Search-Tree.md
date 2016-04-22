@@ -25,7 +25,7 @@ this problem becomes the binary tree version.
 
 With the assumption above, we can solve this problem in more efficient way.
 Suppose the given two nodes are `P` and `Q`.
-Without loss of generality, we let `P.val > Q.val`.
+Without loss of generality, we let `P.val < Q.val`.
 We can find the lowest common ancestor of `P` and `Q` by traversing the BST from the root and for each visited node `N`:
 
 1. if `N == P`, then `N` should be the answer;
