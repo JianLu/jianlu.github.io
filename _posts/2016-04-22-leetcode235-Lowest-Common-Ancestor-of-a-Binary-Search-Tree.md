@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[LeetCode 235] Evaluate Reverse Polish Notation"
+title: "[LeetCode 235] Lowest Common Ancestor of a Binary Search Tree"
 date: 2016-04-22 17:58
 description: Solution of Leetcode Question 235
 categories: [Programming]
