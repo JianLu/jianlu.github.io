@@ -4,7 +4,7 @@ title: "[LeetCode 122] Best Time to Buy and Sell Stock II"
 date: 2014-05-06 22:58
 description: Solution of LeetCode Question 122
 categories: [Programming]
-tags: [leetcode, dynamic programming]
+tags: [leetcode, greedy algorithm]
 ---
 
 Question Link:
