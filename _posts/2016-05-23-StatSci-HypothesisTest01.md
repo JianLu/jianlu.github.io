@@ -132,3 +132,35 @@ Otherwise, the null hypothesis is not rejected.
 According to this perspective, if a result is significant, then it does not matter how significant it is.
 Moreover, if it is not significant, then it does not matter how close to being significant it is.
 
+# Hypothesis Test Steps
+
+There are four steps in a significance test:
+
+1. Step 1: setting up the null hypothesis $$H_0$$ and alternative hypothesis $$H_1$$.
+For a two-tailed test, the null hypothesis is typically that a parameter equals to zero
+(e.g. $$ mu_1 - mu_2 = 0$$ or $$ mu_1 = mu_2 $$).
+For a one-tailed test, the null hypothesis is either that a parameter is larger than or equal to zero ($$ mu_1 - mu_2 \ge 0$$)
+or that a parameter is less than or equal to zero ($$ mu_1 - mu_2 \le 0 $$).
+2. Step 2: Take a random sample of individuals from the population and calculate the sample statistics.
+3. Step 3: computing p-value, which is the probability of obtaining sample statistic as different or more different from the parameter
+specified in the null hypothesis given that the null hypothesis is true.
+4. Step 4: comparing p-value with the $$\alpha$$ level and make your decision.
+If the probability value is lower than the significance level, then reject the null hypothesis.
+The lower the p-value, the more confidence to conclude the null hypothesis is false.
+Failure to reject the null hypothesis does NOT support that null hypothesis is true, it just means that you cannot prove it is false.
+
+# Misconception
+
+The probability value is the probability that the null hypothesis if false.
+
+> The probability value is the probability of a result as extreme or more extreme given that the nul hypothesis is true.
+> It is the probability of data given the null hypothesis.
+
+A low probability value indicates a large effect.
+
+> A low probability value indicates that the sample outcome is very unlikely if the null hypothesis is true.
+> A low probability value can occur with small effect sizes, particularly if the sample size is large.
+
+A non-significant outcome means that the null hypothesis is probably true.
+
+> A non-significant outcome means that the data do not prove that the null hypothesis is false.
