@@ -16,6 +16,11 @@ math: true
 This section shows how to test the null hypothesis that the population mean is equal to some hypothesized value.
 For example, suppose we have the quiz scores of students.
 
+## Assumptions
+
+1. Each value is sampled independently from each other value;
+2. The values are sampled from a normal distribution.
+
 ## Hypothesis
 
 The question is whether the population mean of scores suggested that the quiz score is equal to 60.
@@ -88,4 +93,93 @@ x.sd <- sd(x)
 xT <- (60 - x.mean) / (x.sd / sqrt(30))
 p <- dt(xT, df = (30 - 1))
 # [1] 8.632443e-10
+~~~
+
+# Two-sample Testing
+
+It is much common for a researcher to be interested in the difference between two means
+than in the specific values of the means themselves.
+This section covers how to test for differences between means of two separate groups of observations.
+That is, we have two samples $$ X \sim norm(mean = \mu_X, sd = \sigma_X) $$ and $$ Y \sim norm(mean = \mu_Y, sd = \sigma_Y) $$, distributed independently.
+We would like to know whether $$X$$ and $$Y$$ come from the same population distribution.
+
+## Assumptions
+
+1. The two samples have the same variance.
+2. The two samples are normally distributed.
+3. Each value is sampled independently from each other value.
+
+The equal variance assumption can be relaxed as long as both sample sizes $$n$$ and $$m$$ are large.
+The normality assumption can be relaxed as long as the population distributions are not highly skewed.
+However, if one (or both) samples is small, then the test does not perform well.
+
+## Hypothesis
+
+The hypothesis testing is defined as:
+
+$$ H_0: \mu_X = \mu_Y $$
+
+$$ H_1: \mu_X \ne \mu_Y $$
+
+## Test Statistic
+
+The test statistic is:
+
+$$ t = \frac{ \text{statistic} - \text{hypothesized value}} {\text{standard error of the statistic}} $$
+
+If the variances of the populations are known, then the test statistic is:
+
+$$ Z = \frac { (\bar{X} - \bar{Y}) - 0 } {\sqrt{ {\sigma_X}^2 / n + {\sigma_Y}^2 / m }}  \sim norm(mean = 0, sd = 1) $$
+
+The test statistic should follow the standard normal distribution under $$ H_0 $$.
+
+In the most case, the variances are not known.
+
+$$ T = \frac { (\bar{X} - \bar{Y}) - 0 } {\sqrt{ {S_X}^2 / n + {S_Y}^2 / m }} $$
+
+If either of the sample sizes is small (generally less than 30),
+the test value should follow the t-distribution with $$ (n - 1) + (m - 1) $$ degrees of freedom
+instead of the standard normal distribution.
+
+
+## Examples
+
+Suppose we have two samples:
+
+~~~ R
+# Generate data
+g1 <- c(2, 3, 4, 5)
+g2 <- c(2, 4, 6)
+~~~
+
+It is usually good to construct side-by-side boxplots,
+which gives a visual comparison of the samples and helps to identify departures from the test’s assumptions.
+
+~~~ R
+df <- data.frame(group = c(rep(1, length(g1)), rep(2, length(g2))), value = c(g1, g2))
+boxplot(value ~ group, df)
+~~~
+
+Then, we calculate the test statistic:
+
+~~~ R
+# Test statistic: difference of means
+v <- mean(g1) - mean(g2)
+# [1] -0.5
+~~~
+
+Next step is to calculate the standard error of the statistic:
+
+~~~ R
+# Standard error of the statistic
+s <- sqrt(sd(g1) / length(g1) + sd(g2) / length(g2))
+# [1] 0.9946936
+~~~
+
+Finally, calculate the probability:
+
+~~~ R
+tt <- v / s
+# Probablity of getting tt
+pt(tt, length(g1) + length(g2) - 2)
 ~~~
