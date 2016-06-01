@@ -180,6 +180,66 @@ Finally, calculate the probability:
 
 ~~~ R
 tt <- v / s
+## [1] -0.5026674
 # Probablity of getting tt
-pt(tt, length(g1) + length(g2) - 2)
+dt(tt, df =5)
+# [1] 0.3274179
+# One-tail test: Pr(t < -0.5026674)
+pt(tt, df =5)
+# [1] 0.3182754
+# Two-tail test: Pr(t < -0.502664 or t > 0.502664)
+pt(tt, df = 5) + pt(-tt, df = 5, lower.tail = FALSE)
+# [1] 0.6365508
 ~~~
+
+### Computation of Standard Error
+
+However, there is another way to estimate the standard error of statistic $$ S $$, especially when the sample sizes are not equal.
+We can use MSE, the estimate of variance, with the following formula:
+
+$$
+\text{SSE} = \sum{(X-M_1)^2} + \sum{(X-M_2)^2} \\
+
+\text{MSE} = \frac{\text{SSE}}{\text{df}} \\
+
+S = \sqrt{\frac{2 \text{MSE}} {n}}
+$$
+
+# Paired Samples Testing
+
+Note that one of the assumption is that each value is sampled independently,
+which means each subject must provide only one scores.
+If a subject provides two scores, then the scores are not independent.
+In this section, we study the test where the samples are either paired up in some way or the same sample are used twice.
+
+## Example
+
+Suppose a researcher wants to see whether teaching students to read using a computer game gives better results than teaching with a tried-and-true phonics method.
+She randomly selects 20 students and puts them into 10 pairs according to their reading readiness level, age, IQ, and so on.
+She randomly selects one student from each pair to learn to read via the computer game,
+and the other learns to read using the phonics method.
+At the end of the study, each student takes the same reading test.
+
+The data are in pairs, but you’re really interested only in the difference in reading scores
+(computer reading score – phonics reading score) for each pair, not the reading scores themselves.
+So, you take the difference between the scores for each pair,
+and those paired differences make up your new dataset to work with.
+If the two reading methods are the same, the average of the paired differences should be 0.
+If the computer method is better, the average of the paired differences should be positive.
+
+## Hypothesis
+
+$$ H_0: \mu_d = 0 $$
+
+$$ H_1: \mu_d \ne 0 $$
+
+$$ \mu_d $$ is the mean of the paired difference.
+
+## Test Statistic
+
+The formula for the test statistic for paired differences is:
+
+$$ T = \frac {\bar{d} - \mu_d} {S_d / \sqrt{n}} $$
+
+When calculating probability value, if the dataset is small,
+we should use t-distribution with $$n-1$$ degrees of freedom instead of the standard normal distribution.
