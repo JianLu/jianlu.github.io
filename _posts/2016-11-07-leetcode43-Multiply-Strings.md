@@ -25,7 +25,7 @@ The solution is very straightforword, just simulate the multiplication operation
 
 1. From low digit to high digit in multiplier, calculate multiplcation of multiplicand and the digit.
 2. Add the result to corresponding position. `s1[i]` and `s2[j]` should be added into `res[i+j]`.
-3. Need to take care the carry, especially it is possible that there is a new carry for the multiplication of multiplicand and the mulitplier digit.
+3. Need to take care the carry, especially it is possible that there is a new carry at the highest digit for each pass of the multiplication of multiplicand and the mulitplier digit.
 4. Because we need to calculate from low to high digit, one trick is to reverse `s1` and `s2`, and return the reverse of the multiplication result.
 
 
