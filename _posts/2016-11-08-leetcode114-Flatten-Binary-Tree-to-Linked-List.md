@@ -21,7 +21,7 @@ For each visit node, link the last visit node with the current node (set left to
 ## Python implementation
 
 The python code is as follows. The code is based on the solution of
-[[LeetCode 144] Binary Tree Preorder Traversal](/2014/04/04/leetcode144-Binary-Tree-Preorder-Traversal/){:target="_blank"}.
+[[LeetCode 94] Binary Tree Inorder Traversal](/2014/04/04/leetcode94-Binary-Tree-Inorder-Traversal/){:target="_blank"}.
 
 <div class="code-title">
 <span class="code-fold" id="fold-btn-python" onclick="$use('fold-body-python', 'fold-btn-python')">[-]</span>
