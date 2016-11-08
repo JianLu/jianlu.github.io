@@ -88,4 +88,4 @@ class Solution(object):
 
 ## Finite Automation
 
-There is a Finite Automation solution here[http://articles.leetcode.com/regular-expression-matching].
+There is a Finite Automation solution [here](http://articles.leetcode.com/regular-expression-matching){:target="_blank"}.
