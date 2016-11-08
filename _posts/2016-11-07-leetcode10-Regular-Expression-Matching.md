@@ -84,3 +84,7 @@ class Solution(object):
 
 ~~~
 {: #fold-body-python}
+
+## Finite Automation
+
+There is a Finite Automation solution here[http://articles.leetcode.com/regular-expression-matching].
