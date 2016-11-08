@@ -16,6 +16,7 @@ Question Link:
 ## Dynamic Programming
 
 Let `M[i][j]` denote if string `s[0..i-1]` matches pattern `p[0..j-1]`. Then we have the recursive function of `M`:
+
 1. If `p[j-1]` is a character other than `*` or `.`:
     `M[i][j] = p[j-1] == s[j-1] and M[i-1][j-1]`
 2. If `p[j-1]` is `.`:
