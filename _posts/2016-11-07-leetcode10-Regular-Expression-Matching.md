@@ -86,6 +86,6 @@ class Solution(object):
 ~~~
 {: #fold-body-python}
 
-## Finite Automation
+## Character-by-character Matching
 
-There is a Finite Automation solution [here](http://articles.leetcode.com/regular-expression-matching){:target="_blank"}.
+There is a character-by-character matching [here](http://articles.leetcode.com/regular-expression-matching){:target="_blank"}.
