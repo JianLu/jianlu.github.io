@@ -52,7 +52,6 @@ class Solution:
             N = path[-1]
             # Check if N is Leaf
             if N.left is None and N.right is None:
-                print(path)
                 res.append("->".join([str(x.val) for x in path]))
                 prev_node = path.pop()
             else:

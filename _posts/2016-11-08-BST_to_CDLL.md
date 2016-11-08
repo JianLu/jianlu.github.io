@@ -4,7 +4,7 @@ title: "Convert a Binary Tree to a Circular Doubly Link List"
 date: 2016-11-08 13:09:34
 description: Convert a binary tree to doubly link list in-place
 categories: [Programming]
-tags: [leetcode, binary tree]
+tags: [binary tree]
 ---
 
 Given a Binary Tree, convert it to a Circular Doubly Linked List (In-Place):
